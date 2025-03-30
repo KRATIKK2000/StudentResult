@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    text-align: center;
+   border: 2px solid black;
+   margin: auto;
+   padding-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+p{
+    color: red;
+}
+
+#button{
+    color: aliceblue;
+    background-color: rgb(30, 117, 248);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ 
+table ,td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+form label{
+    text-align: left;
+}
+#table1{
+    
+    display: none;
+}

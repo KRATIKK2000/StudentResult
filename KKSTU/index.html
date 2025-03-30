@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./student.js" defer></script> -->
+    <!-- <script src="./gemini.js" defer></script> -->
+    <link rel="stylesheet" href="./student.css">
+     <!-- <script src="./chagptREs.js" defer></script>  -->
+     <script src="./perfectcode.js" defer></script> 
+     <!-- correct code mil gya chatgpt me kra hua h solution  -->
+</head>
+<body>
+     <div id="form1">
+     <div class="form"><h1>Enter your marks</h1>
+        <label for="Hindi">Hindi</label>
+        <br>
+        <input type="text" id="Hindi" > 
+        <p  id="HindiRange"></p>
+        <br>
+
+        <label for="English">English</label>
+        <br>
+        <input type="text" id="English" > 
+        <p id="EnglishRange"></p>
+        <br>
+
+        <label for="Maths">Maths</label><br>
+        <input type="text" id="Maths" > 
+        <p id="MathsRange"></p>
+        <br>
+
+        <label for="Science">Science</label><br>
+        <input type="text" id="Science" >
+        <p id="ScienceRange"></p> 
+        <br>
+
+        <label for="SoScience">Social_Science</label><br>
+        <input type="text" id="SoScience" > 
+        <p id="SoScienceRange"></p> 
+        <br>
+
+        <label for="Sanskrit">Sanskrit</label><br>
+        <input type="text" id="Sanskrit" > 
+        <p id="SanskritRange"></p> 
+        <br>
+      
+
+        <button onclick="handleSubmit(event)" id="button" value="Submit values">submit</button>
+    </div>
+</div>
+        <div id="table1">
+            <table>
+                <tr>
+                  <th>Subject</th>
+                  <th>Total</th>
+                  <th>Obtain</th>
+                  <th>Other</th>
+                </tr>
+                <tr>
+                  <td>Hindi</td>
+                  <td>100</td>
+                  <td id="hindiMarks"></td>
+                  <td id="hindiGrade"></td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>100</td>
+                    <td id="englishMarks"></td>
+                    <td id="englishGrade"></td>
+                  </tr>
+                  <tr>
+                    <td>Maths</td>
+                    <td>100</td>
+                    <td id="mathsMarks"></td>
+                    <td id="MathsGrade"></td>
+                  </tr>
+                  <tr>
+                    <td>Science</td>
+                    <td>100</td>
+                    <td id="scienceMarks"></td>
+                    <td id="scienceGrade"></td>
+                  </tr>
+                  <tr>
+                    <td>SocialScience</td>
+                    <td>100</td>
+                    <td id="socialScienceMarks"></td>
+                    <td id="socialScienceGrade"></td>
+                  </tr>
+                  <tr>
+                    <td>Sanskrit</td>
+                    <td>100</td>
+                    <td id="sanskritMarks"></td>
+                    <td id="sanskritGrade"></td>
+                  </tr>
+               
+              </table>
+
+             <div>
+                <h1> Division</h1>
+                <h2 id="DivisionResult"></h2>
+              
+               <h1>result</h1>
+               <h2 id="Result"></h2>
+             </div>
+            </div>
+        
+
+
+
+
+
+    
+</body>
+</html>
